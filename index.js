@@ -11,7 +11,7 @@ document.getElementById("submit").onclick = function () {
   });
   console.log();
 
-  document.getElementById("lname").value = test.join();
+  document.getElementById("lname").value = "[" + test.join() + "]";
 
   //   document.getElementById("lname").value = x.slice(-6).split("");
 };
